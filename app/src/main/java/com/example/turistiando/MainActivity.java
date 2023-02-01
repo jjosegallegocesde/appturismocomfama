@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        
+
     }
 
 
@@ -96,11 +96,7 @@ public class MainActivity extends AppCompatActivity {
             case(R.id.opcion3):
                 this.cambiarIdioma("es");
                 Intent intent2=new Intent(MainActivity.this,MainActivity.class);
-<<<<<<< HEAD
                 startActivity(intent2);
-=======
-                startActivity(intent2m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      );
->>>>>>> f9df3ee7f05e7697b4043228b869880be711aa79
                 break;
         }
 
